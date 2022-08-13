@@ -5,3 +5,5 @@ contact = {
 }
 #Your code here:
 
+for item in contact.items():
+    print(" : ".join(item))
