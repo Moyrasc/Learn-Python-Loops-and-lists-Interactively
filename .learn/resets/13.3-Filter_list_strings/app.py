@@ -7,7 +7,3 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
-def filter_function(items):
-    return list(filter(lambda name: True if "am" in name.lower() else False, items))
-
-print(filter_function(names))
